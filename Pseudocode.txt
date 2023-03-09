@@ -2,7 +2,7 @@ A(Example1)
 1. Set the value variable to 20
 2. Set the total variable to 0
 3. Create a loop that starts at 0 and ends at the value variable
-4. Set the toplam+=i
+4. Set the toplam=i+toplam
 7. End the loop
 5. Output the final value of total to the console.
 ------------------------------------------------------------------------------------------------------------------------------------------
@@ -16,7 +16,7 @@ C(Example3)
 1. Set the value veriable to 11
 2. Set the symbol verable to true
 3. Create a loop that start at 2 and ends at the value veriable
-4. If the number satisfies the condition "value%i==0", then print "sade deyil" on the screen
+4. If the number satisfies the condition "value mod i=0", then print "sade deyil" on the screen
 5. If the number satisfies the condition "symbol=true", then print "sadedir" on the screen
 6. End the loop
 -------------------------------------------------------------------------------------------------------------------------------------------------
@@ -26,7 +26,7 @@ D(Example4)
 3. Create a loop that start at "from" veriable and ends at the "to" veriable
 4. Set the "symbol" veriable to "true"
 5. Create a loop that start at 2 and ends at the "i" veriable
-6. If the number satisfies the condition "value%i==0", then output complex numbers.
+6. If the number satisfies the condition "value mod i=0", then output complex numbers.
 7. Set the "symbol" veriable to "false"
-8. If the number satisfies the condition "symbol==true && i !== 1", then output prime numbers.
+8. If the number satisfies the condition "symbol=true and 'i' is not equal to 1", then output prime numbers.
 9. End the loop
